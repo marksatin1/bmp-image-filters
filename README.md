@@ -1,4 +1,4 @@
-# README
+# Image Filter Software
   
 *filter.c* transforms a 24-bit bitmap image by passing it through one of six filters and writing the filtered image to a new .bmp file. Original BMPs can be compressed or uncompressed but they must be 24-bit images. In each execution of the program you must choose one and only one of the six available filters. If you want to apply two filter transformations you must apply the first one in the first execution and then run the program again with a different flag on the transformed image. This will result in a total of two new BMP files, one for each transformation stage.
 
